@@ -123,4 +123,5 @@ def upload_and_predict():
 if __name__ == "__main__":
     if not os.path.exists(UPLOAD_FOLDER):
         os.makedirs(UPLOAD_FOLDER)
-    app.run(host='0.0.0.0', port=2000, ssl_context=('cert.pem', 'key.pem'))
+    # app.run(host='0.0.0.0', port=2000, ssl_context=('cert.pem', 'key.pem'))
+    app.run(host='0.0.0.0',port=2000)
