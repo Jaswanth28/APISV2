@@ -1,0 +1,7 @@
+Flask==2.0.2
+numpy==1.24.3
+opencv_contrib_python==4.8.0.76
+opencv_python==4.8.0.74
+# tensorflow --no-chache-dir
+tensorflow_addons==0.21.0
+# pip3 install tensorflow --no-cache-dir
